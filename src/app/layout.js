@@ -3,12 +3,12 @@ import ClientLayout from "@/client-layout";
 import { ViewTransitions } from "next-view-transitions";
 
 export const metadata = {
-  title: "Polite Chaos | Codegrid",
-  description: "MWT by Codegrid",
+  title: "UnderFive Studios",
+  description: "The Official UnderFive Studios Website.",
   icons: {
-    icon: "/site-logo.png",
-    shortcut: "/site-logo.png",
-    apple: "/site-logo.png",
+    icon: "/branding/Logo.png",
+    shortcut: "/branding/Logo.png",
+    apple: "/branding/Logo.png",
   },
 };
 

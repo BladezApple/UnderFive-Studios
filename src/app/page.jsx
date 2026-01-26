@@ -42,13 +42,6 @@ const Page = () => {
               </Copy>
             </div>
 
-            <div className="hero-footer-outer">
-              <Copy animateOnScroll={false} delay={isInitialLoad ? 6.35 : 1.65}>
-                <p className="sm">&copy; Codegrid Dept.</p>
-                <p className="sm">( Workroom 101 )</p>
-              </Copy>
-            </div>
-
             <div className="hero-footer">
               <Copy animateOnScroll={false} delay={isInitialLoad ? 6.05 : 1.15}>
                 <p className="lg">

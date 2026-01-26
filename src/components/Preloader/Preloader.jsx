@@ -76,7 +76,7 @@ const Preloader = () => {
 
         const preloaderImages = gsap.utils.toArray(".preloader-images .img");
         const preloaderImagesInner = gsap.utils.toArray(
-          ".preloader-images .img img"
+          ".preloader-images .img img",
         );
 
         const tl = gsap.timeline({ delay: 0.25 });
@@ -102,7 +102,7 @@ const Preloader = () => {
               ease: "hop",
               delay: index * 0.75,
             },
-            "-=5"
+            "-=5",
           );
         });
 
@@ -115,7 +115,7 @@ const Preloader = () => {
               ease: "hop",
               delay: index * 0.75,
             },
-            "-=5.25"
+            "-=5.25",
           );
         });
 
@@ -127,7 +127,7 @@ const Preloader = () => {
             ease: "hop",
             stagger: 0.025,
           },
-          "-=5"
+          "-=5",
         );
 
         tl.to(
@@ -137,7 +137,7 @@ const Preloader = () => {
             duration: 1,
             ease: "hop",
           },
-          "-=1.5"
+          "-=1.5",
         );
 
         tl.to(
@@ -148,7 +148,7 @@ const Preloader = () => {
             ease: "hop",
             stagger: 0.025,
           },
-          "-=2.5"
+          "-=2.5",
         );
 
         tl.to(
@@ -167,13 +167,13 @@ const Preloader = () => {
               }, 100);
             },
           },
-          "-=0.5"
+          "-=0.5",
         );
       };
 
       initializeAnimation();
     },
-    { scope: preloaderRef, dependencies: [showPreloader] }
+    { scope: preloaderRef, dependencies: [showPreloader] },
   );
 
   if (!showPreloader) {
@@ -202,7 +202,7 @@ const Preloader = () => {
       </div>
 
       <div className="preloader-header">
-        <h1>Polite Chaos</h1>
+        <h1>UnderFive Studios</h1>
       </div>
     </>
   );
