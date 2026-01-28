@@ -27,7 +27,7 @@ const Footer = () => {
   const imageParticleCount = 10;
   const imagePaths = Array.from(
     { length: imageParticleCount },
-    (_, i) => `/objects/obj-${i + 1}.png`
+    (_, i) => `/objects/obj-${i + 1}.png`,
   );
 
   useEffect(() => {
@@ -94,7 +94,7 @@ const Footer = () => {
         const baseOnHeight = Math.floor(viewportHeight * 0.22);
         return Math.max(
           300,
-          Math.min(config.imageSize, baseOnWidth, baseOnHeight)
+          Math.min(config.imageSize, baseOnWidth, baseOnHeight),
         );
       };
 
@@ -105,7 +105,7 @@ const Footer = () => {
         const particleSize = getComputedImageSize();
         explosionContainerRef.current.style.setProperty(
           "--particle-size",
-          `${particleSize}px`
+          `${particleSize}px`,
         );
 
         imagePaths.forEach((path) => {
@@ -123,10 +123,10 @@ const Footer = () => {
         createParticles();
 
         const particleElements = explosionContainerRef.current.querySelectorAll(
-          ".explosion-particle-img"
+          ".explosion-particle-img",
         );
         const particles = Array.from(particleElements).map(
-          (element) => new Particle(element)
+          (element) => new Particle(element),
         );
 
         const animate = () => {
@@ -137,7 +137,7 @@ const Footer = () => {
             explosionContainerRef.current &&
             particles.every(
               (particle) =>
-                particle.y > explosionContainerRef.current.offsetHeight / 2
+                particle.y > explosionContainerRef.current.offsetHeight / 2,
             )
           ) {
             cancelAnimationFrame(animationId);
@@ -175,7 +175,7 @@ const Footer = () => {
         if (explosionContainerRef.current) {
           explosionContainerRef.current.style.setProperty(
             "--particle-size",
-            `${newSize}px`
+            `${newSize}px`,
           );
         }
         hasExploded = false;
@@ -194,7 +194,7 @@ const Footer = () => {
         }
       };
     },
-    { scope: footerRef }
+    { scope: footerRef },
   );
 
   return (
@@ -220,17 +220,11 @@ const Footer = () => {
         </div>
         <div className="footer-byline">
           <div className="footer-time">
-            <p>
-              Toronto, ON <span>{torontoTime}</span>
-            </p>
-          </div>
-
-          <div className="footer-author">
-            <p>Developed by Codegrid</p>
+            <span>Quality Is Assured!</span>
           </div>
 
           <div className="footer-copyright">
-            <p>&copy; Polite Chaos</p>
+            <span>&copy; UnderFive Studios</span>
           </div>
         </div>
       </div>

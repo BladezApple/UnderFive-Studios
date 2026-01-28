@@ -32,13 +32,13 @@ const Page = () => {
         <div className="container">
           <div className="studio-header-row">
             <Copy delay={0.8}>
-              <h1>We are polite</h1>
+              <h1>We are Under</h1>
             </Copy>
           </div>
 
           <div className="studio-header-row">
             <Copy delay={0.95}>
-              <h1>We are chaos</h1>
+              <h1>We are Five</h1>
             </Copy>
           </div>
         </div>
@@ -52,11 +52,11 @@ const Page = () => {
 
           <Copy animateOnScroll={true}>
             <p className="lg">
-              Polite Chaos is a creative studio shaping digital worlds through
-              motion, color, and story. We blend art and technology to create
-              visuals that move not only on screen but in emotion. Every project
-              is treated like a short film, designed to feel alive, cinematic,
-              and intentional.
+              UnderFive Studios is a creative studio shaping digital worlds
+              through motion, color, and story. We blend art and technology to
+              create visuals that move not only on screen but in emotion. Every
+              project is treated like a short film, designed to feel alive,
+              cinematic, and intentional.
             </p>
 
             <p className="lg">
@@ -73,8 +73,6 @@ const Page = () => {
       <TeamCards />
 
       <Spotlight />
-
-      <CTACard />
 
       <Footer />
     </div>

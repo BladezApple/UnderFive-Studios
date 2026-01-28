@@ -158,8 +158,6 @@ const Page = () => {
 
       <Spotlight />
 
-      <CTACard />
-
       <Footer />
     </>
   );

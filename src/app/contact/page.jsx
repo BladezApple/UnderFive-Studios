@@ -199,7 +199,7 @@ const Page = () => {
       <div className="contact-copy">
         <div className="contact-col">
           <Copy delay={0.8}>
-            <h2>Things in motion stay interesting</h2>
+            <h2>Things in motion stay valuable</h2>
           </Copy>
         </div>
 
@@ -207,30 +207,23 @@ const Page = () => {
           <div className="contact-group">
             <Copy delay={0.8}>
               <p className="sm">Focus</p>
-              <p>Motion Worlds</p>
-              <p>Dream Engineering</p>
-              <p>Strange Branding</p>
-            </Copy>
-          </div>
-
-          <div className="contact-group">
-            <Copy delay={1.2}>
-              <p className="sm">Base</p>
-              <p>Old Harbour District, Oslo</p>
+              <p>Minecraft Plugins</p>
+              <p>Minecraft Builds</p>
+              <p>Texture Packs</p>
             </Copy>
           </div>
 
           <div className="contact-mail">
             <Button delay={1.3} href="/">
-              studio@politechaos.com
+              studio@underfivestudios.site
             </Button>
           </div>
 
           <div className="contact-group">
             <Copy delay={1.4}>
               <p className="sm">Credits</p>
-              <p>Created by Codegrid</p>
-              <p>Edition 2025</p>
+              <p>Created by UnderFive Studios</p>
+              <p>Change the text idk</p>
             </Copy>
           </div>
         </div>
@@ -246,7 +239,7 @@ const Page = () => {
             <Copy delay={1.7} animateOnScroll={false}>
               <a
                 className="sm"
-                href="https://www.instagram.com/codegridweb/"
+                href="https://www.instagram.com/"
                 target="_blank"
               >
                 Instagram
@@ -254,27 +247,19 @@ const Page = () => {
             </Copy>
 
             <Copy delay={1.8} animateOnScroll={false}>
-              <a
-                className="sm"
-                href="https://www.youtube.com/@codegrid"
-                target="_blank"
-              >
+              <a className="sm" href="https://www.youtube.com/" target="_blank">
                 YouTube
               </a>
             </Copy>
 
             <Copy delay={1.9} animateOnScroll={false}>
-              <a
-                className="sm"
-                href="https://x.com/codegridweb"
-                target="_blank"
-              >
+              <a className="sm" href="https://x.com/" target="_blank">
                 Twitter
               </a>
             </Copy>
           </div>
           <Copy delay={2} animateOnScroll={false}>
-            <p className="sm">&copy; Polite Chaos</p>
+            <p className="sm">&copy; UnderFive Studios</p>
           </Copy>
         </div>
       </div>

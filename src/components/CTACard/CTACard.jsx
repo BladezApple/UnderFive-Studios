@@ -18,8 +18,9 @@ const CTACard = () => {
           <div className="cta-col">
             <Copy animateOnScroll={true}>
               <p className="lg">
-                Polite Chaos is connected to The Noise Network, a collective of
-                studios exploring digital art as emotion, motion, and code.
+                UnderFive Studios is connected to The Noise Network, a
+                collective of studios exploring digital art as emotion, motion,
+                and code.
               </p>
             </Copy>
 

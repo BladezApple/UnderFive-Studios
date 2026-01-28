@@ -112,7 +112,7 @@ const Menu = ({ pageRef }) => {
       gsap.set(linkHighlighter, { y: "150%" });
 
       const defaultLinkText = menuLinksWrapper.querySelector(
-        ".menu-link:first-child a span"
+        ".menu-link:first-child a span",
       );
       if (defaultLinkText) {
         const linkWidth = defaultLinkText.offsetWidth;
@@ -121,7 +121,7 @@ const Menu = ({ pageRef }) => {
         targetHighlighterWidth.current = linkWidth;
 
         const defaultLinkTextElement = menuLinksWrapper.querySelector(
-          ".menu-link:first-child"
+          ".menu-link:first-child",
         );
         const linkRect = defaultLinkTextElement.getBoundingClientRect();
         const menuWrapperRect = menuLinksWrapper.getBoundingClientRect();
@@ -231,7 +231,7 @@ const Menu = ({ pageRef }) => {
 
       const handleMenuLinksWrapperMouseLeave = () => {
         const defaultLinkText = menuLinksWrapper.querySelector(
-          ".menu-link:first-child"
+          ".menu-link:first-child",
         );
         if (!defaultLinkText) return;
 
@@ -248,7 +248,7 @@ const Menu = ({ pageRef }) => {
       menuOverlay.addEventListener("mousemove", handleMouseMove);
       menuLinksWrapper.addEventListener(
         "mouseleave",
-        handleMenuLinksWrapperMouseLeave
+        handleMenuLinksWrapperMouseLeave,
       );
 
       const animate = () => {
@@ -285,7 +285,7 @@ const Menu = ({ pageRef }) => {
         menuOverlay.removeEventListener("mousemove", handleMouseMove);
         menuLinksWrapper.removeEventListener(
           "mouseleave",
-          handleMenuLinksWrapperMouseLeave
+          handleMenuLinksWrapperMouseLeave,
         );
 
         menuLinkContainers.forEach((link) => {
@@ -304,7 +304,7 @@ const Menu = ({ pageRef }) => {
         splitTextInstances.current = [];
       };
     },
-    { scope: menuOverlayRef }
+    { scope: menuOverlayRef },
   );
 
   useEffect(() => {
@@ -468,7 +468,7 @@ const Menu = ({ pageRef }) => {
               navigateWithTransition("/", isMenuOpen ? toggleMenu : null);
             }}
           >
-            <img src="/logo.svg" alt="" />
+            <img src="/Logo.png" alt="" />
           </a>
         </div>
 
@@ -494,24 +494,19 @@ const Menu = ({ pageRef }) => {
             }}
           >
             <div className="menu-content-group">
-              <p>&copy; Polite Chaos</p>
-              <p>Seaside Studio Block</p>
-              <p>Oslo</p>
+              <p>&copy; UnderFive Studios</p>
+              <p>Quality Made Studio</p>
+              <p>India</p>
             </div>
 
             <div className="menu-content-group">
-              <p>Edition</p>
-              <p>Late Vol. 04</p>
+              <p>Texture Packs</p>
+              <p>Quality Builds</p>
             </div>
 
             <div className="menu-content-group">
               <p>Say Hello</p>
-              <p>hi@politechaos.com</p>
-            </div>
-
-            <div className="menu-content-group">
-              <p>Hotline</p>
-              <p>+47 9824 554321</p>
+              <p>hi@underfivestudios.site</p>
             </div>
           </div>
           <div
@@ -521,13 +516,13 @@ const Menu = ({ pageRef }) => {
             }}
           >
             <div className="menu-content-group">
-              <p>Field Log</p>
+              <p>Video Logs</p>
 
-              <a href="https://www.instagram.com/codegridweb/" target="_blank">
+              <a href="https://www.instagram.com/" target="_blank">
                 Instagram
               </a>
 
-              <a href="https://www.youtube.com/@codegrid" target="_blank">
+              <a href="https://www.youtube.com/" target="_blank">
                 YouTube
               </a>
             </div>
@@ -539,8 +534,8 @@ const Menu = ({ pageRef }) => {
 
             <div className="menu-content-group">
               <p>Credits</p>
-              <p>Made by Codegrid</p>
-              <p>MWT. OCT2025</p>
+              <p>BladeZ is Bald</p>
+              <p>Sharpie Is PRO</p>
             </div>
           </div>
         </div>
@@ -568,7 +563,7 @@ const Menu = ({ pageRef }) => {
                 }
                 navigateWithTransition(
                   item.route,
-                  isMenuOpen ? toggleMenu : null
+                  isMenuOpen ? toggleMenu : null,
                 );
               }}
             >

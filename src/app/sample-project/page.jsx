@@ -9,7 +9,7 @@ const Page = () => {
       <section className="project-header">
         <Copy delay={0.75}>
           <p className="lg">Engineered Perfection</p>
-          <h1>Gunmetal Dream</h1>
+          <h1>Sample Project</h1>
         </Copy>
       </section>
 
@@ -47,7 +47,7 @@ const Page = () => {
 
           <div className="details">
             <p>Studio</p>
-            <h3>Polite Chaos</h3>
+            <h3>UnderFive Studios</h3>
           </div>
         </Copy>
       </section>
@@ -90,27 +90,17 @@ const Page = () => {
         <Copy animateOnScroll={true}>
           <div className="details">
             <p>Assembly</p>
-            <h3>Rhea Korrin</h3>
+            <h3>ItzStevee</h3>
           </div>
 
           <div className="details">
             <p>Sound</p>
-            <h3>Ezra Lowell</h3>
+            <h3>BladeZ</h3>
           </div>
 
           <div className="details">
             <p>Direction of Form</p>
-            <h3>Jun Park</h3>
-          </div>
-
-          <div className="details">
-            <p>Production</p>
-            <h3>Isla Trent</h3>
-          </div>
-
-          <div className="details">
-            <p>Vision Lead</p>
-            <h3>Kael Morrow</h3>
+            <h3>Sharpie</h3>
           </div>
         </Copy>
       </section>
@@ -118,17 +108,7 @@ const Page = () => {
       <section className="next-project">
         <Copy animateOnScroll={true}>
           <p style={{ marginBottom: "1rem" }}>02 - 05</p>
-          <h2>Next</h2>
-        </Copy>
-
-        <div className="next-project-img">
-          <div className="next-project-img-wrapper">
-            <img src="/project/next-project.jpg" alt="" />
-          </div>
-        </div>
-
-        <Copy animateOnScroll={true}>
-          <h3>Stoneface</h3>
+          <h2>End</h2>
         </Copy>
       </section>
 

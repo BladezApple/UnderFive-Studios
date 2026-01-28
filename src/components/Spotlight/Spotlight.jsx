@@ -53,7 +53,7 @@ const Spotlight = () => {
                   end: "top top",
                   scrub: true,
                 },
-              }
+              },
             );
 
             if (marqueeTrigger.scrollTrigger) {
@@ -70,7 +70,7 @@ const Spotlight = () => {
       const waitForOtherTriggers = () => {
         const existingTriggers = ScrollTrigger.getAll();
         const hasPinnedTrigger = existingTriggers.some(
-          (trigger) => trigger.vars && trigger.vars.pin
+          (trigger) => trigger.vars && trigger.vars.pin,
         );
 
         if (hasPinnedTrigger || existingTriggers.length > 0) {
@@ -86,7 +86,7 @@ const Spotlight = () => {
         scrollTriggerInstances.forEach((trigger) => trigger.kill());
       };
     },
-    { scope: spotlightRef }
+    { scope: spotlightRef },
   );
 
   return (
@@ -98,7 +98,7 @@ const Spotlight = () => {
               <img src="/spotlight/spotlight-1.jpg" alt="" />
             </div>
             <div className="marquee-img-item marquee-text-item">
-              <h1>Hyperreal</h1>
+              <h1>Builds</h1>
             </div>
             <div className="marquee-img-item">
               <img src="/spotlight/spotlight-2.jpg" alt="" />
@@ -124,7 +124,7 @@ const Spotlight = () => {
               <img src="/spotlight/spotlight-7.jpg" alt="" />
             </div>
             <div className="marquee-img-item marquee-text-item">
-              <h1>Fragmented</h1>
+              <h1>Textures</h1>
             </div>
             <div className="marquee-img-item">
               <img src="/spotlight/spotlight-8.jpg" alt="" />
@@ -138,7 +138,7 @@ const Spotlight = () => {
               <img src="/spotlight/spotlight-9.jpg" alt="" />
             </div>
             <div className="marquee-img-item marquee-text-item">
-              <h1>Softcore</h1>
+              <h1>Plugins</h1>
             </div>
             <div className="marquee-img-item">
               <img src="/spotlight/spotlight-10.jpg" alt="" />
@@ -164,7 +164,7 @@ const Spotlight = () => {
               <img src="/spotlight/spotlight-15.jpg" alt="" />
             </div>
             <div className="marquee-img-item marquee-text-item">
-              <h1>Motion</h1>
+              <h1>Design</h1>
             </div>
             <div className="marquee-img-item">
               <img src="/spotlight/spotlight-16.jpg" alt="" />
