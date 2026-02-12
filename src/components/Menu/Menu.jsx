@@ -6,6 +6,7 @@ import { SplitText } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import { useLenis } from "lenis/react";
 import { useViewTransition } from "@/hooks/useViewTransition";
+import Button from "../Button/Button";
 
 gsap.registerPlugin(useGSAP, SplitText);
 
@@ -33,10 +34,9 @@ const Menu = ({ pageRef }) => {
 
   const menuItems = [
     { label: "Home", route: "/" },
-    { label: "Work", route: "/work" },
-    { label: "Studio", route: "/studio" },
-    { label: "Stories", route: "/stories" },
+    { label: "About", route: "/about" },
     { label: "Contact", route: "/contact" },
+    { label: "Projects", route: "/showcase" },
   ];
 
   const currentX = useRef(0);
@@ -85,7 +85,6 @@ const Menu = ({ pageRef }) => {
       const menuLinksWrapper = menuLinksWrapperRef.current;
       const linkHighlighter = linkHighlighterRef.current;
       const menuImage = menuImageRef.current;
-      const container = pageRef.current;
       const menuLinkContainers = menuLinkContainersRef.current;
 
       splitTextInstances.current.forEach((split) => split.revert());
@@ -320,7 +319,6 @@ const Menu = ({ pageRef }) => {
     if (isMenuAnimating) return;
     setIsMenuAnimating(true);
 
-    const container = pageRef.current;
     const menuOverlay = menuOverlayRef.current;
     const menuImage = menuImageRef.current;
     const menuLinks = menuLinksRef.current;
@@ -466,9 +464,8 @@ const Menu = ({ pageRef }) => {
                 return;
               }
               navigateWithTransition("/", isMenuOpen ? toggleMenu : null);
-            }}
-          >
-            <img src="/Logo.png" alt="" />
+            }}>
+            {!isMenuOpen && (<img src="/Logo.png" alt="" />)}
           </a>
         </div>
 
@@ -491,57 +488,51 @@ const Menu = ({ pageRef }) => {
             className="menu-col"
             ref={(el) => {
               menuColsRef.current[0] = el;
-            }}
-          >
-            <div className="menu-content-group">
-              <p>&copy; UnderFive Studios</p>
-              <p>Quality Made Studio</p>
-              <p>India</p>
-            </div>
+            }}>
 
             <div className="menu-content-group">
-              <p>Texture Packs</p>
+              <p>Efficient Plugins</p>
               <p>Quality Builds</p>
+              <p>Affordable Prices</p>
             </div>
 
             <div className="menu-content-group">
-              <p>Say Hello</p>
-              <p>hi@underfivestudios.site</p>
+              <p>Talk to us!</p>
+              <Button href="mailto:underfivestudios@gmail.com">
+                Email
+              </Button>
             </div>
           </div>
           <div
             className="menu-col"
             ref={(el) => {
               menuColsRef.current[1] = el;
-            }}
-          >
+            }}>
             <div className="menu-content-group">
-              <p>Video Logs</p>
+              <p>Our Socials</p>
 
-              <a href="https://www.instagram.com/" target="_blank">
+              <a href="https://www.instagram.com/underfivestudios/" target="_blank">
                 Instagram
               </a>
 
-              <a href="https://www.youtube.com/" target="_blank">
+              <a href="https://www.youtube.com/@UnderFiveStudios" target="_blank">
                 YouTube
               </a>
             </div>
 
             <div className="menu-content-group">
-              <p>Language</p>
-              <p>Human</p>
-            </div>
-
-            <div className="menu-content-group">
               <p>Credits</p>
-              <p>BladeZ is Bald</p>
-              <p>Sharpie Is PRO</p>
+              <p>@ItzSteveefr</p>
+              <p>@BladeZ</p>
             </div>
           </div>
         </div>
 
         <div className="menu-img">
-          <img ref={menuImageRef} src="/menu/menu_img.jpg" alt="" />
+          <img ref={menuImageRef} src="/menu/menu_img.png" alt="" />
+          <h2>
+            <i>"Premium creations made accessible"</i>
+          </h2>
         </div>
 
         <div className="menu-links-wrapper" ref={menuLinksWrapperRef}>
@@ -565,14 +556,12 @@ const Menu = ({ pageRef }) => {
                   item.route,
                   isMenuOpen ? toggleMenu : null,
                 );
-              }}
-            >
+              }}>
               <a
                 href={item.route}
                 ref={(el) => {
                   menuLinksRef.current[index] = el;
-                }}
-              >
+                }}>
                 <span>{item.label}</span>
                 <span>{item.label}</span>
               </a>

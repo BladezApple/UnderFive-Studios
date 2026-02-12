@@ -95,79 +95,95 @@ const Spotlight = () => {
         <div className="marquee-container" id="marquee-1">
           <div className="marquee">
             <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-1.jpg" alt="" />
+              <img src="/spotlight/spotlight-1.png" alt="" />
             </div>
+
             <div className="marquee-img-item marquee-text-item">
               <h1>Builds</h1>
             </div>
+
             <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-2.jpg" alt="" />
+              <img src="/spotlight/spotlight-2.png" alt="" />
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-3.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-4.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
           </div>
         </div>
 
         <div className="marquee-container" id="marquee-2">
           <div className="marquee">
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-5.jpg" alt="" />
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-6.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-7.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
+
             <div className="marquee-img-item marquee-text-item">
               <h1>Textures</h1>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-8.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
           </div>
         </div>
 
         <div className="marquee-container" id="marquee-3">
           <div className="marquee">
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-9.jpg" alt="" />
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
+
             <div className="marquee-img-item marquee-text-item">
               <h1>Plugins</h1>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-10.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-11.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-12.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
           </div>
         </div>
 
         <div className="marquee-container" id="marquee-4">
           <div className="marquee">
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-13.jpg" alt="" />
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-14.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-15.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
+
             <div className="marquee-img-item marquee-text-item">
               <h1>Design</h1>
             </div>
-            <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-16.jpg" alt="" />
+
+            <div className="marquee-img-item placeholder">
+              <h2>Coming Soon!</h2>
             </div>
           </div>
         </div>

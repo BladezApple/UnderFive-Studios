@@ -38,20 +38,20 @@ const Page = () => {
           <div className="hero-content-main">
             <div className="hero-header">
               <Copy animateOnScroll={false} delay={isInitialLoad ? 5.75 : 0.75}>
-                <h1>Crafting Digital Worlds with a Bit of Mischief</h1>
+                <h1>Digital Creations Made Accessible</h1>
               </Copy>
             </div>
 
             <div className="hero-footer">
               <Copy animateOnScroll={false} delay={isInitialLoad ? 6.05 : 1.15}>
                 <p className="lg">
-                  We build visuals, stories, and systems for people who like
-                  their creativity a little unpredictable.
+                  We create high-quality plugins, builds, and other digital assets
+                  that are still accessible!
                 </p>
               </Copy>
 
-              <Button delay={isInitialLoad ? 6.35 : 1.55} href="/studio">
-                Visit the Studio
+              <Button delay={isInitialLoad ? 6.35 : 1.55} href="https://discord.com/invite/FQqnur9cG2">
+                Visit our Studio
               </Button>
             </div>
           </div>
@@ -75,15 +75,14 @@ const Page = () => {
                 width="100%"
                 viewBox="0 0 32 32"
                 fill="none"
-                className="icon"
-              >
+                className="icon">
                 <path
                   d="M16 26.6665L16 5.33317"
                   stroke="currentColor"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
+                  strokeLinejoin="round">
+                </path>
                 <path
                   d="M22.6667 19.9999L16 26.6665L9.33337 19.9998"
                   stroke="currentColor"
@@ -97,8 +96,8 @@ const Page = () => {
             <div className="featured-work-header-copy">
               <Copy animateOnScroll={true} delay={0.25}>
                 <p className="lg">
-                  From motion to concept, pieces born from quiet sketches, late
-                  nights, and just the right amount of chaos.
+                  From concept to design, our featured work showcases the best of our creative capabilities.
+                  Each project is a testament to our commitment to quality and innovation.
                 </p>
               </Copy>
             </div>
@@ -123,15 +122,16 @@ const Page = () => {
                 width="100%"
                 viewBox="0 0 32 32"
                 fill="none"
-                className="icon"
-              >
+                className="icon">
                 <path
                   d="M16 26.6665L16 5.33317"
                   stroke="currentColor"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                ></path>
+                >
+                  
+                </path>
                 <path
                   d="M22.6667 19.9999L16 26.6665L9.33337 19.9998"
                   stroke="currentColor"
@@ -145,8 +145,8 @@ const Page = () => {
             <div className="client-reviews-header-copy">
               <Copy animateOnScroll={true} delay={0.25}>
                 <p className="lg">
-                  Unfiltered thoughts from the people who survived our creative
-                  process. Or at least that’s what they told us.
+                  Unfiltered thoughts from the people who experienced our creative
+                  process.
                 </p>
               </Copy>
             </div>

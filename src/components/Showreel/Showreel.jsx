@@ -13,8 +13,8 @@ const Showreel = () => {
   const audioRef = useRef(null);
   const [currentFrame, setCurrentFrame] = useState(1);
   const [isMuted, setIsMuted] = useState(true);
-  const totalFrames = 7;
-  const frameInterval = 500;
+  const totalFrames = 4;
+  const frameInterval = 700;
 
   const toggleMute = () => {
     if (audioRef.current) {
@@ -125,9 +125,8 @@ const Showreel = () => {
     <section className="showreel" ref={showreelSecRef}>
       <div className="showreel-container">
         <img
-          src={`/showreel/showreel-frame-${currentFrame}.jpg`}
-          alt="Showreel frame"
-        />
+          src={`/showreel/showreel-frame-${currentFrame}.png`}
+          alt="Showreel frame" />
       </div>
 
       <div className="volume-icon" onClick={toggleMute}>

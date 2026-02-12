@@ -50,6 +50,25 @@ export default function Button({
     }
   };
 
+  const isExternal = (url) => {
+    if (!url) return false;
+
+    if (url.startsWith("mailto:") || url.startsWith("tel:")) {
+      return true;
+    }
+
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      try {
+        const link = new URL(url);
+        return link.origin !== window.location.origin;
+      } catch {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
   useGSAP(
     () => {
       if (!labelRef.current || !buttonRef.current) return;
@@ -137,12 +156,18 @@ export default function Button({
       ref={buttonRef}
       href={href}
       className={`button button--${variant}`}
+      target={isExternal(href) ? "_blank" : undefined}
+      rel={isExternal(href) ? "noopener noreferrer" : undefined}
       onClick={(e) => {
         if (!href) return;
+        if (isExternal(href)) {
+          return;
+        }
+
         e.preventDefault();
         navigateWithTransition(href);
-      }}
-    >
+      }}>
+
       <span className="button-label" ref={labelRef}>
         {children}
       </span>

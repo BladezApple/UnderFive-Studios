@@ -212,19 +212,20 @@ const Footer = () => {
               delay={0.5}
               variant="light"
               icon={IoMail}
-              href="/contact"
-            >
-              Say Hello
+              href="/contact">
+              Contact Us
             </Button>
           </div>
         </div>
         <div className="footer-byline">
           <div className="footer-time">
-            <span>Quality Is Assured!</span>
+            <span>
+              <i>Premium creations made accessible</i>
+            </span>
           </div>
 
           <div className="footer-copyright">
-            <span>&copy; UnderFive Studios</span>
+            <span>UnderFive Studios &copy; 2026</span>
           </div>
         </div>
       </div>

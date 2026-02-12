@@ -69,6 +69,18 @@
   object-fit: cover;
 }
 
+.placeholder {
+  background-color: var(--base-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder h2 {
+  font-size: 3vw;
+  letter-spacing: 0.1px;
+}
+
 .spotlight .marquee-img-item h1 .char {
   will-change: font-weight;
 }

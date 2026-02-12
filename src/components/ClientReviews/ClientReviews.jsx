@@ -24,8 +24,6 @@ const ClientReviews = () => {
         cardContainers.forEach((cardContainer, index) => {
           const rotation = index % 2 === 0 ? 3 : -3;
           gsap.set(cardContainer, { rotation: rotation });
-
-          const computedStyle = window.getComputedStyle(cardContainer);
         });
 
         const scrollTriggerInstances = [];
@@ -111,8 +109,7 @@ const ClientReviews = () => {
         <div className="review-card" key={index}>
           <div
             className="review-card-container"
-            id={`review-card-${index + 1}`}
-          >
+            id={`review-card-${index + 1}`}>
             <div className="review-card-content">
               <div className="review-card-content-wrapper">
                 <h3 className="review-card-text lg">{item.review}</h3>

@@ -55,6 +55,8 @@ footer .footer-byline {
   width: 100%;
   display: flex;
   padding: 2rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 footer .footer-byline > div {
