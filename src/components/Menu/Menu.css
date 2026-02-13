@@ -100,7 +100,7 @@ nav .close-label {
 }
 
 #email-button {
-  width: 14vw;
+  width: fit-content;
 }
 
 .menu-overlay .split-line {
