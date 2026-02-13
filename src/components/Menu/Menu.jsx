@@ -495,12 +495,6 @@ const Menu = ({ pageRef }) => {
               <p>Quality Builds</p>
               <p>Affordable Prices</p>
             </div>
-
-            <div id="email-button">
-              <Button href="mailto:underfivestudios@gmail.com" variant="light">
-                Email Us!
-              </Button>
-            </div>
           </div>
           <div
             className="menu-col"
