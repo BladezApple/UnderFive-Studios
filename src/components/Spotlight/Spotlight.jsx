@@ -95,7 +95,7 @@ const Spotlight = () => {
         <div className="marquee-container" id="marquee-1">
           <div className="marquee">
             <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-1.png" alt="" />
+              <img src="/spotlight/spotlight-1.webp" alt="" />
             </div>
 
             <div className="marquee-img-item marquee-text-item">
@@ -103,7 +103,7 @@ const Spotlight = () => {
             </div>
 
             <div className="marquee-img-item">
-              <img src="/spotlight/spotlight-2.png" alt="" />
+              <img src="/spotlight/spotlight-2.webp" alt="" />
             </div>
 
             <div className="marquee-img-item placeholder">

@@ -497,9 +497,8 @@ const Menu = ({ pageRef }) => {
             </div>
 
             <div className="menu-content-group">
-              <p>Talk to us!</p>
-              <Button href="mailto:underfivestudios@gmail.com">
-                Email
+              <Button href="mailto:underfivestudios@gmail.com" variant="light">
+                Email Us!
               </Button>
             </div>
           </div>
@@ -517,6 +516,10 @@ const Menu = ({ pageRef }) => {
 
               <a href="https://www.youtube.com/@UnderFiveStudios" target="_blank">
                 YouTube
+              </a>
+
+              <a href="https://discord.com/invite/FQqnur9cG2" target="_blank">
+                Discord
               </a>
             </div>
 

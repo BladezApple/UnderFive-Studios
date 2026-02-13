@@ -190,10 +190,10 @@ const Preloader = () => {
             <img src="/menu/menu_img.png" alt="" />
           </div>
           <div className="img">
-            <img src="/featured-work/work-1.png" alt="" />
+            <img src="/featured-work/work-1.webp" alt="" />
           </div>
           <div className="img">
-            <img src="/featured-work/work-2.png" alt="" />
+            <img src="/featured-work/work-2.webp" alt="" />
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Page = () => {
         href: "",
         variant: "variant-1",
         images: [
-          "/showcase/showcase-1.png",
+          "/showcase/showcase-1.webp",
         ],
       },
       {
@@ -29,7 +29,7 @@ const Page = () => {
         href: "",
         variant: "variant-2",
         images: [
-          "/showcase/showcase-2.png",
+          "/showcase/showcase-2.webp",
         ],
       },
       {

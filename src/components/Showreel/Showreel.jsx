@@ -125,7 +125,7 @@ const Showreel = () => {
     <section className="showreel" ref={showreelSecRef}>
       <div className="showreel-container">
         <img
-          src={`/showreel/showreel-frame-${currentFrame}.png`}
+          src={`/showreel/showreel-frame-${currentFrame}.webp`}
           alt="Showreel frame" />
       </div>
 
