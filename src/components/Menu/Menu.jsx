@@ -6,7 +6,6 @@ import { SplitText } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import { useLenis } from "lenis/react";
 import { useViewTransition } from "@/hooks/useViewTransition";
-import Button from "../Button/Button";
 
 gsap.registerPlugin(useGSAP, SplitText);
 
@@ -37,6 +36,7 @@ const Menu = ({ pageRef }) => {
     { label: "About", route: "/about" },
     { label: "Contact", route: "/contact" },
     { label: "Projects", route: "/showcase" },
+    { label: "TOS", route: "/terms-of-service" },
   ];
 
   const currentX = useRef(0);

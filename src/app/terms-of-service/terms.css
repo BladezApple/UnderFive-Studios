@@ -1,0 +1,28 @@
+.tos-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--base-100);
+  justify-items: center;
+}
+
+.tos-page .tos-content-wrapper {
+  position: relative;
+  width: 80%;
+  height: fit-content;
+  padding-top: 3svh;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tos-content-wrapper .header h1 {
+    text-align: center;
+    padding-bottom: 15rem;
+}
+
+.content-group {
+    padding-bottom: 2rem;
+}
