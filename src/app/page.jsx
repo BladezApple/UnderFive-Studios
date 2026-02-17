@@ -5,7 +5,6 @@ import Showreel from "@/components/Showreel/Showreel";
 import FeaturedWork from "@/components/FeaturedWork/FeaturedWork";
 import ClientReviews from "@/components/ClientReviews/ClientReviews";
 import Spotlight from "@/components/Spotlight/Spotlight";
-import CTACard from "@/components/CTACard/CTACard";
 import Footer from "@/components/Footer/Footer";
 import Copy from "@/components/Copy/Copy";
 import Preloader, { isInitialLoad } from "@/components/Preloader/Preloader";
@@ -128,8 +127,7 @@ const Page = () => {
                   stroke="currentColor"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
+                  strokeLinejoin="round">
                   
                 </path>
                 <path

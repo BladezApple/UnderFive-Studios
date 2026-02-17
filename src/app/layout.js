@@ -6,9 +6,9 @@ export const metadata = {
   title: "UnderFive Studios",
   description: "The Official UnderFive Studios Website.",
   icons: {
-    icon: "/branding/Logo.png",
-    shortcut: "/branding/Logo.png",
-    apple: "/branding/Logo.png",
+    icon: "/Logo_square.png",
+    shortcut: "/Logo.png",
+    apple: "/Logo.png",
   },
 };
 
