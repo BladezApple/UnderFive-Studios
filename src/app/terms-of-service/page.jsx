@@ -35,7 +35,6 @@ const Page = () => {
 
         <div className="tos-content">
             <Copy animateOnScroll={true}>
-
                 <div className="content-group">
                     <p className="xl">1. Acceptance of Terms</p>
                     <p className="lg">
@@ -45,7 +44,9 @@ const Page = () => {
                     to these terms, please do not use our services.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">2. Eligibility</p>
                     <p className="lg">
@@ -54,7 +55,9 @@ const Page = () => {
                     If you are under 18, you confirm that you have permission from a parent or legal guardian.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">3. Products and Services</p>
                     <p className="lg">
@@ -70,7 +73,9 @@ const Page = () => {
                       </ul>
                     </div>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">4. Licensing and Usage</p>
                     <p className="lg">
@@ -87,7 +92,9 @@ const Page = () => {
                       </ul>
                     </div>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">5. Payments</p>
                     <p className="lg">
@@ -104,7 +111,9 @@ const Page = () => {
                       </ul>
                     </div>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">6. Refund Policy</p>
                     <p className="lg">
@@ -121,7 +130,9 @@ const Page = () => {
                       </ul>
                     </div>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">7. Client Responsibilities</p>
                     <p className="lg">
@@ -137,7 +148,9 @@ const Page = () => {
                       </ul>
                     </div>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">8. Modifications and Updates</p>
                     <p className="lg">
@@ -145,7 +158,9 @@ const Page = () => {
                     Updates may be provided for free or as separate releases depending on the product.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">9. Limitation of Liability</p>
                     <p className="lg">
@@ -154,7 +169,9 @@ const Page = () => {
                     provided "as is" without warranties of any kind.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">10. Termination</p>
                     <p className="lg">
@@ -163,7 +180,9 @@ const Page = () => {
                     our products without authorization.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">11. Changes to Terms</p>
                     <p className="lg">
@@ -171,7 +190,9 @@ const Page = () => {
                     after changes are posted constitutes acceptance of the revised terms.
                     </p>
                 </div>
+            </Copy>
 
+            <Copy animateOnScroll={true}>
                 <div className="content-group">
                     <p className="xl">12. Contact</p>
                     <p className="lg">
