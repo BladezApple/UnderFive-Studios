@@ -1,19 +1,19 @@
 {
   "redirects": [
     {
-      "source": "/",
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "discord.underfivestudios.site" }],
       "destination": "https://discord.gg/QwEgsXByC9",
       "permanent": false
     },
     {
-      "source": "/",
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "youtube.underfivestudios.site" }],
       "destination": "https://www.youtube.com/@UnderFiveStudios",
       "permanent": false
     },
     {
-      "source": "/",
+      "source": "/:path*",
       "has": [{ "type": "host", "value": "instagram.underfivestudios.site" }],
       "destination": "https://www.instagram.com/underfivestudios/",
       "permanent": false
